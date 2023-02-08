@@ -2,7 +2,7 @@
 
 import sys
 
-import shared
+from CAT import shared
 
 
 def import_nodes(nodes_dmp, log_file, quiet):

@@ -5,7 +5,7 @@ import os
 import subprocess
 import sys
 
-import shared
+from CAT import shared
 
 
 def check_md5_gz(gz_file, md5_file, log_file, quiet):

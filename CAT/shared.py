@@ -10,7 +10,7 @@ import pathlib
 import subprocess
 import sys
 
-import check
+from CAT import check
 
 
 class PathAction(argparse.Action):

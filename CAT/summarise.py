@@ -3,9 +3,9 @@
 import argparse
 import sys
 
-import about
-import check
-import shared
+from CAT import about
+from CAT import check
+from CAT import shared
 
 
 def parse_arguments():

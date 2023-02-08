@@ -2,14 +2,14 @@
 
 import sys
 
-import about
-import add_names
-import bins
-import contigs
-import download
-import prepare
-import single_bin
-import summarise
+from CAT import about
+from CAT import add_names
+from CAT import bins
+from CAT import contigs
+from CAT import download
+from CAT import prepare
+from CAT import single_bin
+from CAT import summarise
 
 
 def usage():

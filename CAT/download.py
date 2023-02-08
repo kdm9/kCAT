@@ -9,8 +9,8 @@ import tarfile
 import urllib.request
 import urllib.parse
 
-import shared
-import check
+from CAT import shared
+from CAT import check
 
 
 def parse_arguments():

@@ -9,9 +9,9 @@ import shutil
 import subprocess
 import sys
 
-import check
-import shared
-import tax
+from CAT import check
+from CAT import shared
+from CAT import tax
 
 
 def parse_arguments():
